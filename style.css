@@ -34,7 +34,7 @@ body{
   margin-right: 10px;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
@@ -45,23 +45,23 @@ body{
 }
 @media screen and (max-width: 700px) {
   .header__container {
-    height: 50px;
+    height: 60px;
     max-width: 1440px;
   }
   .header__logo {
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 35px;
   }
   .header__phone {
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 20px;
   
     
   }
 }
 @media screen and (max-width: 500px) {
   .header__container {
-    height: 40px;
+    height: 50px;
     max-width: 1440px;
   }
   .header__logo {
@@ -70,22 +70,22 @@ body{
   }
   .header__phone {
     margin-right: 10px;
-    font-size: 15px;
+    font-size: 20px;
   
   }
 }
 @media screen and (max-width: 400px) {
   .header__container {
-    height: 35px;
+    height: 45px;
     max-width: 1440px;
   }
   .header__logo {
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 5px;
+    font-size: 22px;
   }
   .header__phone {
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: 5px;
+    font-size: 15px;
   
   }
 }
