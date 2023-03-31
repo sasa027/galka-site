@@ -106,7 +106,7 @@ body{
 }
 /*-------------------------------------*/
 .under-header-section {
-  background-image: url("/imgs/3g.jpg");
+  background-image: url("./imgs/3g.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
