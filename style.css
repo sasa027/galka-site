@@ -36,13 +36,20 @@ body{
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
   text-decoration: none;
+
+  margin-top:0px;
+  margin-bottom: 0px;
   
   color: #000000;
 
   
 }
+.header__phone-block {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 700px) {
   .header__container {
     height: 60px;
@@ -409,24 +416,26 @@ body{
   height: 100px;
 }
 .footer__phone {
-  margin: 0 auto 0 auto;
-  margin-top: 35px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
-  
   color: #ffffff;
+}
+.footer__phone-container {
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
 }
 @media screen and (max-width: 650px) {
   .footer__container {
     height: 60px;
   }
   .footer__phone {
-    margin-top: 17px;
-    font-size: 20px;
+    font-size: 18px;
 
   }
 }
@@ -436,8 +445,7 @@ body{
     height: 50px;
   }
   .footer__phone {
-    margin-top: 14px;
-    font-size: 17px;
+    font-size: 15px;
 
   }
 }
