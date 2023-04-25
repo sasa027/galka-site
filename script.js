@@ -6,6 +6,7 @@ const cancelBtn = document.querySelector('.popup-window__cancel-button');
 const popupBg = document.querySelector('.popup-window__bg');
 
 
+
 contactBtn.addEventListener('click', function() {
   popupWindow.classList.add('no-hide');
   popupBg.classList.add('no-hide');
@@ -46,8 +47,16 @@ photoGaleryPanelCloseBtn.addEventListener('click', function() {
 
 });
 
-
 //zoom img--------------------------------------
+const phoneNumber1 = document.querySelector('.phone1');
+phoneNumber1.addEventListener('click', function() {
 
 
+});
+
+const phoneNumber2 = document.querySelector('.phone2');
+phoneNumber2.addEventListener('click', function() {
+  
+
+});
 
